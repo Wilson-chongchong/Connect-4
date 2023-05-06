@@ -1,0 +1,63 @@
+body {
+  text-align: Center;
+}
+
+h1 {
+  font-size: 30px;
+  border: 12.5px outset rgb(38, 49, 46);
+}
+
+h4 {
+  font-size: 7px;
+}
+
+hr{
+  width: 75%;
+  height: 2%;
+  font-size: 50px;
+  background-color: black;
+  margin: 1% auto auto auto;
+}
+
+#board{
+  
+  width: 710px;
+  height: 608px;
+  margin: 1% auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 85px;
+  background-color: #00274C;
+}
+
+.tile {
+  width: 98px;
+  height: 98px;
+  font-size: 70px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  color: #FFCB05;
+}
+
+.activate {
+  background-color: #FFCB05;
+}
+
+.horizontal_line {
+  border-bottom: 4px solid black;
+}
+
+.vertical_line {
+  border-right: 4px solid black;
+}
+
+/* .winner{
+  background-color: white;
+  color: rgb(24, 69, 59);
+} */
+
+img {  
+  width: 80px;
+  height: 80px;
+}  
